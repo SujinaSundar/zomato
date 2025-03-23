@@ -1,0 +1,152 @@
+a
+{
+    text-decoration: none;
+}
+body
+{
+    margin:30px 100px 10px 100px;
+    background-repeat: no-repeat;    
+    background-size: 100% 35%;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    /*background-color: black;*/
+    /*background-image: url(Header.avif);*/
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+}
+.leftnav
+{
+    float: left;
+    
+}
+.leftnav a
+{
+    text-decoration: none;
+    color: white;
+}
+.rightnav
+{
+    float: right;
+}
+.rightnav a
+{
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+    
+}
+.rightnav a.lasttab
+{
+    padding-right: 0px;
+}
+.logocontainer
+{
+    align-content: center;
+    width: 100%;
+    padding-top: 40px;
+    height: 100px;
+    padding-top: 60px;
+}
+
+.flexdiv
+{
+    text-align: center;
+}
+h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    margin-top: 40px;
+}
+.searchbar
+{
+    /*width: 100px;*/
+}
+
+.sectionpart
+{
+
+    border-radius: 20px;
+    border:1px solid #e8e8e8;
+    display: inline-block;
+    margin-right: 20px;
+}
+.sectionpart img
+{
+   border-radius: 10px 10px 0 0;
+}
+.sectionpara
+{
+  padding-left: 10px;
+  font-weight: 500;
+}
+.sectionpara1
+{
+    padding-left: 10px;
+    font-weight: 400;
+
+}
+.sectionimage1
+{
+    background-image:url(https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*) ;
+    height: 300px;
+    background-position: left top;
+    border-radius: 20px;
+    border-top: none;
+}
+.asection
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    color: #4f4f4f;
+    text-decoration: none;
+    width: 33.33%;
+    margin-right: 20px;
+}
+.about
+{
+    float: left;
+    width: 20%;
+    font-size: small;
+}
+h6
+{
+    font-weight:normal;
+    font-size: small;
+    margin-bottom: 10px;
+    letter-spacing: 2px;;
+
+}
+.footer
+{
+    padding-bottom: 100px;
+    margin-top: 50px;
+    width:100%;
+    background-color: #f8f8f8;
+    height: 300px;
+    
+}
+.footer a
+{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    color:#696969;
+    font-variant: normal;
+}
+.footer p
+{
+   font-size: 12px;
+}
+.searchbar
+{
+    width: 100%;
+    padding-left: 200px;
+    padding-top: 25px;
+}
+.searchbar input
+{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0px;
+    float:left;
+}
