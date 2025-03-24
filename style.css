@@ -5,8 +5,10 @@ a
 body
 {
     background-repeat: no-repeat;    
-    background-size: 100% 25%;  
+    background-size: 100% 18%;  
     font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    /*background-color: black;*/
+    /*background-image: url(Header.avif);*/
     background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
 }
 .header
@@ -129,7 +131,7 @@ h6
 }
 .footer
 {
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     margin-top: 50px;
     padding-left: 80px;
     padding-right: 80px;
@@ -214,4 +216,27 @@ color: rgb(54, 54, 54);
     border-color: rgb(239, 79, 95);
     color:white;
     cursor: pointer;
+}
+.dropsearch section
+{
+   
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1.6px solid rgb(207, 207, 207);
+    padding:20px;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+.arrow 
+{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.down 
+{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
