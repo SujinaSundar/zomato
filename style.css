@@ -5,7 +5,7 @@ a
 body
 {
     background-repeat: no-repeat;    
-    background-size: 100% 35%;  
+    background-size: 100% 25%;  
     font-family: Verdana, Geneva, Tahoma, sans-serif;  
     /*background-color: black;*/
     /*background-image: url(Header.avif);*/
@@ -14,8 +14,8 @@ body
 .header
 {
     display: block; 
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
     padding-top: 15px;
 }
 .leftnav
@@ -71,9 +71,9 @@ h1
 {
     margin-top: 200px; 
     display: flex;
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 .sectionpart
 {
@@ -133,7 +133,8 @@ h6
 {
     padding-bottom: 100px;
     margin-top: 50px;
-    padding-left: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
     background-color: #f8f8f8;
     height: 300px;
     
@@ -162,4 +163,57 @@ h6
 .searchinput
 {
     border-radius: 5px 0px 0px 5px;
+}
+.mobsection
+{
+display: flex;
+width: 100%;
+background-color: rgb(255, 251, 247);
+padding-top: 40px;
+margin-top: 40px;
+color: rgb(54, 54, 54);
+}
+.appsection h3
+{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.appsection
+{
+    padding-left: 50px;
+    line-height: 2;
+}
+.downloadapp h6
+{
+    color:rgb(156, 156, 156)
+}
+.about i
+{
+   padding-right: 5px;
+   padding-bottom: 15px;
+}
+#emailsub
+{
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1.6px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    width: 250px;
+    height: 32px;
+    padding-left: 10px;
+    
+}
+.emailbutton
+{
+    border: 1.6px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    width: 150px;
+    height: 38px;
+    padding-left: 10px;
+    background: border-box rgb(239, 79, 95);
+    border-color: rgb(239, 79, 95);
+    color:white;
+    cursor: pointer;
 }
